@@ -20,6 +20,7 @@ import KidDashboard from './components/pages/KidDashboard';
 import MobileMenu from './components/navigation/MobileMenu';
 import Puzzle from './components/gamification/Puzzle';
 import PuzzleGame from './components/gamification/Puzzle';
+import CreateChild from './components/pages/CreateChild';
 
 const App = () => {
   return (
@@ -43,6 +44,7 @@ const App = () => {
         <Route path="/KidDashboard" element={<KidDashboard />} />
         <Route path="navigation/MobileMenu" element={<MobileMenu />} />
         <Route path="gamification/Puzzle" element={<PuzzleGame />} />
+        <Route path="/CreateChild" element={<CreateChild />} />
       </Routes>
     </Router>
   );

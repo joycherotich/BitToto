@@ -8,7 +8,7 @@ const Saving = () => {
   const [savingsGoals, setSavingsGoals] = useState([
     {
       id: 1,
-      goal: "College Fund",
+      goal: "IceCream ",
       targetAmount: 5000,
       savedAmount: 2000,
     },

@@ -64,6 +64,10 @@ const SideBar = () => {
             <FaGift className={`text-xl  font-serif ${!isOpen ? '' : 'mr-3'}`} />
             {isOpen && 'Wallet'}
           </Link>
+          <Link to="/CreateChild" className={linkClass('/CreateChild')} title={!isOpen ? "Child Account" : ""}>
+            <FaGift className={`text-xl  font-serif ${!isOpen ? '' : 'mr-3'}`} />
+            {isOpen && 'Child Account'}
+          </Link>
 
           {/* Settings Dropdown */}
           <div className="relative w-full font-serif text-xl">
