@@ -37,7 +37,7 @@ const ChildAccessSettings = () => {
               {/* Transaction Limit */}
               <div className="flex flex-col">
                 <label htmlFor="transactionLimit" className="text-m font-serif text-gray-700 font-medium mb-2">
-                  💸 Transaction Limit (USD)
+                  💸 Transaction Limit ()
                 </label>
                 <input
                   type="number"
