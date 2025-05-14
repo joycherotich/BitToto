@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { FaHome, FaPiggyBank, FaGift, FaBars, FaTimes, FaCog } from 'react-icons/fa';
+import { FaHome, FaPiggyBank, FaGift, FaBars, FaTimes, FaCog, FaChild } from 'react-icons/fa';
 import { IoIosLogOut } from 'react-icons/io';
 
 const SideBar = () => {
@@ -65,7 +65,7 @@ const SideBar = () => {
             {isOpen && 'Wallet'}
           </Link>
           <Link to="/CreateChild" className={linkClass('/CreateChild')} title={!isOpen ? "Child Account" : ""}>
-            <FaGift className={`text-xl  font-serif ${!isOpen ? '' : 'mr-3'}`} />
+            <FaChild className={`text-xl  font-serif ${!isOpen ? '' : 'mr-3'}`} />
             {isOpen && 'Child Account'}
           </Link>
 
